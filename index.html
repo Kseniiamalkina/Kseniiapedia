@@ -4,6 +4,9 @@
     <title>Kseniiapedia</title>
 
     <style>
+        body {
+            background-color: lightcyan; /* Ändere die Hintergrundfarbe */
+        }
         table {
             border-collapse: collapse; /* Entfernt die doppelten Striche im Inneren */
             width: 100%;
@@ -18,9 +21,25 @@
         th {
             color: gold;
         }
+        .image-container {
+            display: flex;
+        }
+        .image-container img {
+            width: 300px; /* Setze die Breite des Bildes */
+            height: auto; /* Behalte das Seitenverhältnis bei */
+            margin-right: 10px; /* Abstand zwischen den Bildern */
+        }
+        .wider-image {
+            width: 600px; /* Setze die Breite des spezifischen Bildes */
+        }
     </style>
 </head>
 <body>
+    <div class="image-container">
+        <img src="https://www.pferdefachfrau.ch/wp-content/uploads/2016/02/20170228_174026-1-1024x922.jpg" alt="Noriker">
+        <img src="https://th.bing.com/th/id/OIP.4oI5odttCXE-RlXvsUpZpgHaFm?w=1024&h=774&rs=1&pid=ImgDetMain" alt="Noriker">
+        <img src="./Noriker. brauner.jpg.png" alt="Noriker">
+    </div>
     <table>
         <thead>
             <tr>
@@ -32,6 +51,9 @@
                 
             </tr>
             <tr>
+                <td>Gewicht:</td>
+                <td>600kg-800kg</td>
+            <tr>
                 <td>Ursprung:</td>
                 <td>Österreich</td>
             </tr>
@@ -40,6 +62,23 @@
                 <td>bis zu 25 Jahre</td>
 
             </tr>
+            <tr>
+                <td>Farben:</td>
+                <td>Noriker kommen in fast allen Farben vor, meistens sind sie Rappen, Braune und Füchse.</td>
+            </tr>
+            <tr>
+                <td>Charakter:</td>
+                <td>gutmütigen Charakter mit Sinn für eigenständiges Arbeiten schufen das ausgeglichene Temperament dieser Rasse.</td>
+                </tr>
+            <tr>
+                <td>Verwendung:</td>
+                <td>Früher als Kutschpferd, heute als Freizeitpferd und im Reitsport</td>
+            </tr>
+            <tr>
+                <td>Besonderheiten</td>
+                <td>Noriker sind kräftige Kaltblutpferde aus dem Gebirge. Die Merkmale der Rasse sind harte Hufe, ein kräftiger Körperbau und gut ausgebildete Gelenke. Die Pferde zeigen einen guten Schritt und einen bemerkenswert gut sitzbaren Trab.
+            </tr>
+
         </thead>
     </table>
 </body>
