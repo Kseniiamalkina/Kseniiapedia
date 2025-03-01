@@ -15,21 +15,19 @@
         }
         th, td {
             padding: 8px;
-            text-align: middle;
+            text-align: center;
         }
         th {
             color: gold;
         }
         .image-container {
             display: flex;
+            justify-content: center; /* Zentriert die Bilder horizontal */
+            gap: 20px; /* Abstand zwischen den Bildern */
         }
         .image-container img {
-            width: 300px; /* Setze die Breite des Bildes */
+            width: 30%; /* Setze die Breite der Bilder auf 30% */
             height: auto; /* Behalte das Seitenverhältnis bei */
-            margin-right: 10px; /* Abstand zwischen den Bildern */
-        }
-        .wider-image {
-            width: 600px; /* Setze die Breite des spezifischen Bildes */
         }
         .button-container {
             margin-top: 20px;
@@ -49,18 +47,18 @@
 </head>
 <body>
     <div class="image-container">
-        <img src="https://www.equishop.com/img/cms/Seria%20o%20rasach%20koni/ko%C5%84-andaluzyjski%20(2).jpeg" alt="Andalusier">
-        <img src="https://th.bing.com/th/id/OIP.jsLbamJpi3VMFQJThntC9AHaE8?rs=1&pid=ImgDetMain" alt="Andalusier">
-        <img src="https://th.bing.com/th/id/OIP.pW3SI-9ffjjpD2Usl2xHTAHaE6?rs=1&pid=ImgDetMain" alt="Andalusier">
+        <img src="https://th.bing.com/th/id/OIP.UwvDpIXlGSFsytPiNECCPAAAAA?rs=1&pid=ImgDetMain" alt="KWPN">
     </div>
     <table>
         <thead>
             <tr>
-                <th colspan="2">Andalusier</th>
+                <th colspan="2">KWPN</th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
-                <td>Stockmass:</td>
-                <td>150cm-169cm</td>
+                <td>Stockmaß:</td>
+                <td>160cm-170cm</td>
             </tr>
             <tr>
                 <td>Gewicht:</td>
@@ -68,7 +66,7 @@
             </tr>
             <tr>
                 <td>Ursprung:</td>
-                <td>Spanien</td>
+                <td>Niederlande</td>
             </tr>
             <tr>
                 <td>Alter:</td>
@@ -76,23 +74,23 @@
             </tr>
             <tr>
                 <td>Farben:</td>
-                <td>Meistens sind Andalusier Schimmel, selten Falben, Braune, Rappen, manchmal auch Füchse</td>
+                <td>KWPNs kommen in allen Farben vor.</td>
             </tr>
             <tr>
                 <td>Charakter:</td>
-                <td>Der Andalusier ist ein temperamentvolles und gleichzeitig sehr anmutiges, sensibles Pferd. Er wird häufig als das „perfekte“ Pferd bezeichnet.</td>
+                <td>Das KWPN ist ein freundliches, unerschrockenes, lebhaftes und motiviertes Pferd.</td>
             </tr>
             <tr>
                 <td>Verwendung:</td>
-                <td>Sie sind Zugpferde, Frei- und Reitpferde </td>
+                <td>Sie sind für alle Reitsportarten geeignet, werden vor allem im Dressur- & Springreiten verwendet, aber auch als Showpferde sind sie geeignet.</td>
             </tr>
             <tr>
-                <td>Besonderheiten</td>
-                <td>Sie sind überaus intelligent und sehr lernwillig, weshalb sie auch gerne als Dressurpferde eingesetzt werden.</td>
+                <td>Besonderheiten:</td>
+                <td>Die sportlichen Pferde aus den Niederlanden sind in vier verschiedene Zuchtrichtungen unterteilt, die jeweils eigene Namen haben. So finden sich innerhalb der Rasse der KWPN die Linien Gelderländer, Tuigpaard, Springpaarden und Dressuurpaarden.</td>
             </tr>
-        </thead>
+        </tbody>
     </table>
-    <p>Hier findest du noch ein paar Steckbriefe zu ein paar Pferde Rassen!</p>
+    <p>Hier findest du noch ein paar Steckbriefe zu ein paar Pferderassen!</p>
     <div class="button-container">
         <button onclick="window.location.href='DeutschesReitpony.html'">Deutsches Reitpony</button>
     </div>
@@ -100,7 +98,7 @@
         <button onclick="window.location.href='index.html'">Noriker</button>
     </div>
     <div class="button-container">
-        <button onclick="window.location.href='KWPN.html'">KWPN</button>
-       </div>
+        <button onclick="window.location.href='Andalusier.html'">Andalusier</button>
+    </div>
 </body>
 </html>
