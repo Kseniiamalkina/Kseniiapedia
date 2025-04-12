@@ -3,9 +3,31 @@
 <head>
     <title>Kseniiapedia</title>
     <style>
-        body {
-            background-color: lightcyan; /* Ändere die Hintergrundfarbe */
-        }
+    /* Stil für die Buttons */
+    .button-container button {
+        background-color: lightblue; /* Gleiche Farbe wie bei den anderen Buttons */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 5px; /* Optional: abgerundete Ecken */
+    }
+
+    .button-container button:hover {
+        background-color: deepskyblue; /* Hover-Effekt */
+    }
+
+       body {
+    background-image: url('https://th.bing.com/th/id/R.6b694b5cbf28dacb7b708c4df009416a?rik=wPC1tUWjxXVplw&riu=http%3a%2f%2fkwpn-na.org%2fwp-content%2fuploads%2f2018%2f01%2fWitte_10Mail-paint.jpg&ehk=0ReG0E8JWLMlzYpaaDBqt5c%2by%2bIDu1U2%2fUR9m99SHiM%3d&risl=&pid=ImgRaw&r=0'); /* Pfad zu deinem Bild */
+    background-size: cover; /* Passt das Bild an die Größe des Fensters an */
+    background-repeat: no-repeat; /* Verhindert, dass das Bild wiederholt wird */
+    background-attachment: fixed; /* Fixiert das Bild beim Scrollen */
+}
         table {
             border-collapse: collapse; /* Entfernt die doppelten Striche im Inneren */
             width: 100%;
@@ -25,10 +47,7 @@
             justify-content: center; /* Zentriert die Bilder horizontal */
             gap: 20px; /* Abstand zwischen den Bildern */
         }
-        .image-container img {
-            width: 30%; /* Setze die Breite der Bilder auf 30% */
-            height: auto; /* Behalte das Seitenverhältnis bei */
-        }
+        
         .button-container {
             margin-top: 20px;
         }
@@ -46,9 +65,7 @@
     </style>
 </head>
 <body>
-    <div class="image-container">
-        <img src="https://th.bing.com/th/id/OIP.UwvDpIXlGSFsytPiNECCPAAAAA?rs=1&pid=ImgDetMain" alt="KWPN">
-    </div>
+  
     <table>
         <thead>
             <tr>
