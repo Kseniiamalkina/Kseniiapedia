@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kseniiapedia</title>
+    <style>
+        body {
+            background-color: lightcyan; /* Ändere die Hintergrundfarbe */
+        }
+
+        /* Stil für die Buttons */
+        .button-container button {
+            background-color: lightblue; /* Gleiche Farbe wie bei den anderen Buttons */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px; /* Optional: abgerundete Ecken */
+        }
+
+        .button-container button:hover {
+            background-color: deepskyblue; /* Hover-Effekt */
+        }
+
+        /* Stil für das Formular */
+        .form-container {
+            margin-top: 20px;
+        }
+
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+
+        .form-container button {
+            background-color: lightblue;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .form-container button:hover {
+            background-color: deepskyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reitunterricht</h1>
+    <p>Reitunterricht ist nicht nur Unterricht um gut Reiten zu können, es ist auch eine gute Möglichkeit, um sich mit Pferden zu beschäftigen und sie besser kennenzulernen. Es gibt viele verschiedene Arten von Reitunterricht
+        und viele verschiedene Reitweisen. Hier sind einige Beispiele:</p>
+    <ul>
+        <li>Westernreiten</li>
+        <li>Englischreiten</li>
+        <li>Springreiten</li>
+        <li>Dressurreiten</li>  
+    </ul>
+    <p>Es gibt auch viele verschiedene Reitstunden von Einzelstunden bis hin zu Gruppenstunden die sich auf ein Tunier vorbereiten. Reitunterricht ist für alle Altersgruppen geeignet und es gibt auch spezielle Reitstunden für Kinder.</p>
+    <p>Reitunterricht ist eine gute Möglichkeit, um sich sportlich zu betätigen und gleichzeitig die Natur zu genießen. Es ist auch eine gute Möglichkeit, um sich zu entspannen und den Alltag hinter sich zu lassen.</p>
+    <p>Reitunterricht ist also nicht nur für Reiter geeignet, sondern auch für alle, die gerne Zeit mit Pferden verbringen und die Natur genießen möchten.</p>
+    <p>Wenn du also Interesse an Reitunterricht hast, dann schau doch mal bei einem der Höfe vorbei oder auch anderen es gibt noch viele mehr und
+        probiere es aus. Vielleicht entdeckst du ja eine neue Leidenschaft.</p>
+    <p>Hier findest du noch ein paar Pferde-Rassen und deren Steckbriefe.</p>    
+     <div class="button-container">
+         <button onclick="window.location.href='DeutschesReitpony.html'">Deutsches Reitpony</button>
+     </div>
+     <div class="button-container">
+        <button onclick="window.location.href='index.html'">Noriker</button>
+    </div>
+    <div class="button-container">
+        <button onclick="window.location.href='Andalusier.html'">Andalusier</button>
+    </div>
+    <div class="button-container">
+        <button onclick="window.location.href='KWPN.html'">KWPN</button>
+    </div>
+
+    <!-- Formular hinzufügen -->
+    <div class="form-container">
+        <h2>Kontaktformular</h2>
+        <form action="mailto:" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Absenden</button>
+        </form>
+    </div>
+</body>
+</html>
